@@ -8,3 +8,14 @@ function solution(str) {
   return reversed;
 }
 ```
+* https://www.codewars.com/kata/who-is-going-to-pay-for-the-wall/train/javascript
+```javascript
+function whoIsPaying(name) {
+  let arr = [name];
+  if (name.length > 2) {
+  let str = name.substring(0, 2);
+  arr.push(str)
+  }
+  return arr;
+}
+```
