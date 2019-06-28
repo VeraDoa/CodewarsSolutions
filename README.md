@@ -41,3 +41,13 @@ function finalGrade (exam, projects) {
   return 0;
 }
 ```
+*https://www.codewars.com/kata/grasshopper-personalized-message/train/javascript
+```javascript
+function greet (name, owner) {
+  if (name === owner) {
+  return 'Hello boss';
+  } else {
+  return 'Hello guest';
+  }
+}
+```
