@@ -41,7 +41,7 @@ function finalGrade (exam, projects) {
   return 0;
 }
 ```
-*https://www.codewars.com/kata/grasshopper-personalized-message/train/javascript
+* https://www.codewars.com/kata/grasshopper-personalized-message/train/javascript
 ```javascript
 function greet (name, owner) {
   if (name === owner) {
@@ -49,5 +49,15 @@ function greet (name, owner) {
   } else {
   return 'Hello guest';
   }
+}
+```
+* https://www.codewars.com/kata/if-you-cant-sleep-just-count-sheep/train/javascript
+```javascript
+function countSheep(num) {
+  let newString = '';
+    for (let i = 1; i <= num; i++) {
+    newString = newString + i + ' sheep...';
+    }
+  return newString;
 }
 ```
