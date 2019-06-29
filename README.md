@@ -61,3 +61,16 @@ function countSheep(num) {
   return newString;
 }
 ```
+*Man In The West*
+* https://www.codewars.com/kata/man-in-the-west/train/javascript
+```javascript
+function checkTheBucket(bucket) {
+    let gold = 'gold';
+    for (let i = 0; i < bucket.length; i++) {
+      if (bucket[i] === 'gold') {
+          return true;
+        }
+      }
+      return false;
+    }
+```
