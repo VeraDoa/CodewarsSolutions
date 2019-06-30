@@ -74,3 +74,10 @@ function checkTheBucket(bucket) {
       return false;
     }
 ```
+*String repeat*
+* https://www.codewars.com/kata/string-repeat/train/javascript
+```javascript
+function repeatStr (n, string) {
+  return string.repeat(n);
+}
+```
