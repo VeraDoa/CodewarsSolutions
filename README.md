@@ -125,3 +125,10 @@ function even_or_odd(number) {
   else return "Odd";
 }
 ```
+*A Needle In The Haystack*
+* https://www.codewars.com/kata/a-needle-in-the-haystack/train/javascript
+```javascript
+function findNeedle(haystack) {
+  return 'found the needle at position ' + haystack.indexOf('needle');
+}
+```
