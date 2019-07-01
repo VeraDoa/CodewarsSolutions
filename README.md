@@ -117,3 +117,11 @@ function reverseList(list) {
   return arr;
 }
 ```
+*Even Or Odd*
+* https://www.codewars.com/kata/even-or-odd/train/javascript
+```javascript
+function even_or_odd(number) {
+  if (number % 2 === 0) return "Even";
+  else return "Odd";
+}
+```
