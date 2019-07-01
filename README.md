@@ -1,3 +1,4 @@
+*Reversed Strings*
 * https://www.codewars.com/kata/reversed-strings/train/javascript
 ```javascript
 function solution(str) {
@@ -8,6 +9,7 @@ function solution(str) {
   return reversed;
 }
 ```
+*Who Is Paying*
 * https://www.codewars.com/kata/who-is-going-to-pay-for-the-wall/train/javascript
 ```javascript
 function whoIsPaying(name) {
@@ -19,6 +21,7 @@ function whoIsPaying(name) {
   return arr;
 }
 ```
+*Array Plus Array*
 * https://www.codewars.com/kata/array-plus-array/train/javascript
 ```javascript
 function arrayPlusArray(arr1, arr2) {
@@ -32,6 +35,7 @@ function arrayPlusArray(arr1, arr2) {
   return sum;
 }
 ```
+*Final Grade*
 * https://www.codewars.com/kata/students-final-grade/train/javascript
 ```javascript
 function finalGrade (exam, projects) {
@@ -41,6 +45,7 @@ function finalGrade (exam, projects) {
   return 0;
 }
 ```
+*Personalized Message*
 * https://www.codewars.com/kata/grasshopper-personalized-message/train/javascript
 ```javascript
 function greet (name, owner) {
@@ -51,6 +56,7 @@ function greet (name, owner) {
   }
 }
 ```
+*Count Sheep*
 * https://www.codewars.com/kata/if-you-cant-sleep-just-count-sheep/train/javascript
 ```javascript
 function countSheep(num) {
@@ -74,7 +80,7 @@ function checkTheBucket(bucket) {
       return false;
     }
 ```
-*String repeat*
+*String Repeat*
 * https://www.codewars.com/kata/string-repeat/train/javascript
 ```javascript
 function repeatStr (n, string) {
@@ -98,5 +104,16 @@ function countPositivesSumNegatives(input) {
     }
   }
   return [posCount, negSum];
+}
+```
+*Reverse List Order*
+* https://www.codewars.com/kata/reverse-list-order/train/javascript
+```javascript
+function reverseList(list) {
+  let arr = [];
+  for(let i = list.length - 1; i >= 0; i--) {
+  arr.push(list[i]);
+  }
+  return arr;
 }
 ```
