@@ -153,11 +153,23 @@ let a = 'code';
 let b = 'wa.rs';
 let name = a + b;
 ```
-*Opposite number*
+*Opposite Number*
 * https://www.codewars.com/kata/opposite-number/train/javascript
 ```javascript
 function opposite(number) {
   return(-number);
 }
 ```
-*Hello July 1st!*
+*Man In The West*
+* https://www.codewars.com/kata/man-in-the-west/train/javascript
+```javascript
+function checkTheBucket(bucket) {
+    let gold = 'gold';
+    for (let i = 0; i < bucket.length; i++) {
+      if (bucket[i] === 'gold') {
+          return true;
+        }
+      }
+      return false;
+    }
+```
