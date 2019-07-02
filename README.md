@@ -146,3 +146,10 @@ function makeUpperCase(str) {
   return str.toUpperCase();
 }
 ```
+*Basic Variable Assignment*
+* https://www.codewars.com/kata/basic-variable-assignment/train/javascript
+```javascript
+let a = 'code';
+let b = 'wa.rs';
+let name = a + b;
+```
