@@ -139,3 +139,10 @@ let a = 'dev';
 let b ='Lab';
 let name = a + b;
 ```
+*MakeUpperCase*
+* https://www.codewars.com/kata/makeuppercase/train/javascript
+```javascript
+function makeUpperCase(str) {
+  return str.toUpperCase();
+}
+```
