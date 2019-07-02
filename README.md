@@ -132,3 +132,10 @@ function findNeedle(haystack) {
   return 'found the needle at position ' + haystack.indexOf('needle');
 }
 ```
+*Variable Assignment Debug*
+* https://www.codewars.com/kata/grasshopper-variable-assignment-debug/train/javascript
+```javascript
+let a = 'dev';
+let b ='Lab';
+let name = a + b;
+```
