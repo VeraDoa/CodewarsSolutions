@@ -153,3 +153,10 @@ let a = 'code';
 let b = 'wa.rs';
 let name = a + b;
 ```
+*Opposite number*
+* https://www.codewars.com/kata/opposite-number/train/javascript
+```javascript
+function opposite(number) {
+  return(-number);
+}
+```
