@@ -197,3 +197,10 @@ function whatday(num) {
   }
 }
 ```
+*Short Long Short*
+* https://www.codewars.com/kata/short-long-short/train/javascript
+```javascript
+ function solution(a, b) {
+  return a.length < b.length ? a + b + a : b + a + b;
+}
+```
