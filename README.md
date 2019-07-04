@@ -211,3 +211,10 @@ function greet(name) {
   return `Hello, ${name} how are you doing today?`;
 }
 ```
+*Do I Get A Bonus?*
+* https://www.codewars.com/kata/do-i-get-a-bonus/train/javascript
+```javascript
+function bonusTime(salary, bonus) {
+  return bonus ? `£${salary * 10}` : `£${salary}`;
+  }
+```
