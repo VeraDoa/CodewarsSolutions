@@ -218,3 +218,15 @@ function bonusTime(salary, bonus) {
   return bonus ? `£${salary * 10}` : `£${salary}`;
   }
 ```
+*Reversed Sequence*
+* https://www.codewars.com/kata/reversed-sequence/train/javascript
+```javascript
+function reverseSeq(n) {
+  let arr = [];
+  while (n > 0) {
+    arr.push(n);
+    n--;
+  }
+  return arr;
+}
+```
