@@ -204,3 +204,10 @@ function whatday(num) {
   return a.length < b.length ? a + b + a : b + a + b;
 }
 ```
+*Returning Strings*
+* https://www.codewars.com/kata/returning-strings/train/javascript
+```javascript
+function greet(name) {
+  return `Hello, ${name} how are you doing today?`;
+}
+```
