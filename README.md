@@ -1,4 +1,4 @@
-*Reversed Strings*
+*8 kyu Reversed Strings*
 * https://www.codewars.com/kata/reversed-strings/train/javascript
 ```javascript
 function solution(str) {
@@ -9,7 +9,7 @@ function solution(str) {
   return reversed;
 }
 ```
-*Who Is Paying*
+*8 kyu Who Is Paying*
 * https://www.codewars.com/kata/who-is-going-to-pay-for-the-wall/train/javascript
 ```javascript
 function whoIsPaying(name) {
@@ -21,7 +21,7 @@ function whoIsPaying(name) {
   return arr;
 }
 ```
-*Array Plus Array*
+*8 kyu Array Plus Array*
 * https://www.codewars.com/kata/array-plus-array/train/javascript
 ```javascript
 function arrayPlusArray(arr1, arr2) {
@@ -35,7 +35,7 @@ function arrayPlusArray(arr1, arr2) {
   return sum;
 }
 ```
-*Final Grade*
+*8 kyu Final Grade*
 * https://www.codewars.com/kata/students-final-grade/train/javascript
 ```javascript
 function finalGrade (exam, projects) {
@@ -45,7 +45,7 @@ function finalGrade (exam, projects) {
   return 0;
 }
 ```
-*Personalized Message*
+*8 kyu Personalized Message*
 * https://www.codewars.com/kata/grasshopper-personalized-message/train/javascript
 ```javascript
 function greet (name, owner) {
@@ -56,7 +56,7 @@ function greet (name, owner) {
   }
 }
 ```
-*Count Sheep*
+*8 kyu Count Sheep*
 * https://www.codewars.com/kata/if-you-cant-sleep-just-count-sheep/train/javascript
 ```javascript
 function countSheep(num) {
@@ -67,7 +67,7 @@ function countSheep(num) {
   return newString;
 }
 ```
-*Man In The West*
+*8 kyu Man In The West*
 * https://www.codewars.com/kata/man-in-the-west/train/javascript
 ```javascript
 function checkTheBucket(bucket) {
@@ -80,14 +80,14 @@ function checkTheBucket(bucket) {
       return false;
     }
 ```
-*String Repeat*
+*8 kyu String Repeat*
 * https://www.codewars.com/kata/string-repeat/train/javascript
 ```javascript
 function repeatStr (n, string) {
   return string.repeat(n);
 }
 ```
-*Count of positives / sum of negatives*
+*8 kyu Count of positives / sum of negatives*
 * https://www.codewars.com/kata/count-of-positives-slash-sum-of-negatives/train/javascript
 ```javascript
 function countPositivesSumNegatives(input) {
@@ -106,7 +106,7 @@ function countPositivesSumNegatives(input) {
   return [posCount, negSum];
 }
 ```
-*Reverse List Order*
+*8 kyu Reverse List Order*
 * https://www.codewars.com/kata/reverse-list-order/train/javascript
 ```javascript
 function reverseList(list) {
@@ -117,7 +117,7 @@ function reverseList(list) {
   return arr;
 }
 ```
-*Even Or Odd*
+*8 kyu Even Or Odd*
 * https://www.codewars.com/kata/even-or-odd/train/javascript
 ```javascript
 function even_or_odd(number) {
@@ -125,42 +125,42 @@ function even_or_odd(number) {
   else return "Odd";
 }
 ```
-*A Needle In The Haystack*
+*8 kyu A Needle In The Haystack*
 * https://www.codewars.com/kata/a-needle-in-the-haystack/train/javascript
 ```javascript
 function findNeedle(haystack) {
   return 'found the needle at position ' + haystack.indexOf('needle');
 }
 ```
-*Variable Assignment Debug*
+*8 kyu Variable Assignment Debug*
 * https://www.codewars.com/kata/grasshopper-variable-assignment-debug/train/javascript
 ```javascript
 let a = 'dev';
 let b ='Lab';
 let name = a + b;
 ```
-*MakeUpperCase*
+*8 kyu MakeUpperCase*
 * https://www.codewars.com/kata/makeuppercase/train/javascript
 ```javascript
 function makeUpperCase(str) {
   return str.toUpperCase();
 }
 ```
-*Basic Variable Assignment*
+*8 kyu Basic Variable Assignment*
 * https://www.codewars.com/kata/basic-variable-assignment/train/javascript
 ```javascript
 let a = 'code';
 let b = 'wa.rs';
 let name = a + b;
 ```
-*Opposite Number*
+*8 kyu Opposite Number*
 * https://www.codewars.com/kata/opposite-number/train/javascript
 ```javascript
 function opposite(number) {
   return(-number);
 }
 ```
-*Man In The West*
+*8 kyu Man In The West*
 * https://www.codewars.com/kata/man-in-the-west/train/javascript
 ```javascript
 function checkTheBucket(bucket) {
@@ -173,7 +173,7 @@ function checkTheBucket(bucket) {
       return false;
     }
 ```
-*Return The Day*
+*8 kyu Return The Day*
 * https://www.codewars.com/kata/return-the-day/train/javascript
 ```javascript
 function whatday(num) {
@@ -197,28 +197,28 @@ function whatday(num) {
   }
 }
 ```
-*Short Long Short*
+*8 kyu Short Long Short*
 * https://www.codewars.com/kata/short-long-short/train/javascript
 ```javascript
  function solution(a, b) {
   return a.length < b.length ? a + b + a : b + a + b;
 }
 ```
-*Returning Strings*
+*8 kyu Returning Strings*
 * https://www.codewars.com/kata/returning-strings/train/javascript
 ```javascript
 function greet(name) {
   return `Hello, ${name} how are you doing today?`;
 }
 ```
-*Do I Get A Bonus?*
+*8 kyu Do I Get A Bonus?*
 * https://www.codewars.com/kata/do-i-get-a-bonus/train/javascript
 ```javascript
 function bonusTime(salary, bonus) {
   return bonus ? `£${salary * 10}` : `£${salary}`;
   }
 ```
-*Reversed Sequence*
+*8 kyu Reversed Sequence*
 * https://www.codewars.com/kata/reversed-sequence/train/javascript
 ```javascript
 function reverseSeq(n) {
@@ -228,5 +228,18 @@ function reverseSeq(n) {
     n--;
   }
   return arr;
+}
+```
+*8 kyu Multiple Of Index*
+* https://www.codewars.com/kata/multiple-of-index/train/javascript
+```javascript
+function multipleOfIndex(arr) {
+  let arrNew = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] % i === 0) {
+      arrNew.push(arr[i]);
+    }
+  }
+  return arrNew;
 }
 ```
