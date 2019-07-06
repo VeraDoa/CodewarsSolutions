@@ -274,3 +274,25 @@ function numberToString(num) {
 ```javascript
 const oddCount = n => Math.floor(n / 2);
 ```
+*8 kyu Sum Without Highest And Lowest Number*
+* https://www.codewars.com/kata/sum-without-highest-and-lowest-number/train/javascript
+```javascript
+function sumArray(arr) {
+  if (!arr || !arr.length || arr.length <= 1) return 0;
+  let min = arr[0];
+  let max = arr[0];
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+  for (let i = 1; i < arr.length; i++) {
+    if (max < arr[i]) {
+      max = arr[i];
+    }
+    if (min > arr[i]) {
+      min = arr[i];
+    }
+  }
+  return sum - max - min;
+}
+```
