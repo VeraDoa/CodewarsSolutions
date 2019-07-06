@@ -261,3 +261,10 @@ function mergeArrays(arr1, arr2) {
   return newArr.sort((a, b) => a - b);
 }
 ```
+*8 kyu Convert a Number to a String!*
+```javascript
+function numberToString(num) {
+  let str = num.toString();
+  return str;
+}
+```
