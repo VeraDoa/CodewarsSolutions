@@ -262,9 +262,15 @@ function mergeArrays(arr1, arr2) {
 }
 ```
 *8 kyu Convert a Number to a String!*
+* https://www.codewars.com/kata/convert-a-number-to-a-string/train/javascript
 ```javascript
 function numberToString(num) {
   let str = num.toString();
   return str;
 }
+```
+*8 kyu Count Odd Numbers Below N*
+* https://www.codewars.com/kata/count-odd-numbers-below-n/train/javascript
+```javascript
+const oddCount = n => Math.floor(n / 2);
 ```
