@@ -323,4 +323,10 @@ const myFirstKata = (a, b) =>
 ```javascript
 const setAlarm = (employed, vacation) => employed && !vacation;
 ```
-
+*8 kyu Convert boolean values to strings 'Yes' or 'No'*
+* https://www.codewars.com/kata/convert-boolean-values-to-strings-yes-or-no/train/javascript
+```javascript
+function boolToWord(bool) {
+  return bool ? 'Yes' : 'No';
+}
+```
