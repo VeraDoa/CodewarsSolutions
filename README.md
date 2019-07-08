@@ -296,7 +296,7 @@ function sumArray(arr) {
   return sum - max - min;
 }
 ```
-* 8 kyu 101 Dalmatians - squash the bugs, not the dogs!*
+*8 kyu 101 Dalmatians - squash the bugs, not the dogs!*
 * https://www.codewars.com/kata/101-dalmatians-squash-the-bugs-not-the-dogs/train/javascript
 ```javascript
 const howManyDalmatians = number => {
@@ -306,9 +306,15 @@ const howManyDalmatians = number => {
   return "Woah that's a lot of dogs!";
 }
 ```
-* 8 kyu Online RPG: player to qualifying stage?*
+*8 kyu Online RPG: player to qualifying stage?*
 * https://www.codewars.com/kata/online-rpg-player-to-qualifying-stage/train/javascript
 ```javascript
 const playerRankUp = points =>
   points >= 100 ? 'Well done! You have advanced to the qualifying stage. Win 2 out of your next 3 games to rank up.' : false;
+```
+*8 kyu Fix the Bugs (Syntax) - My First Kata*
+* https://www.codewars.com/kata/fix-the-bugs-syntax-my-first-kata/train/javascript
+```javascript
+const myFirstKata = (a, b) =>
+  typeof a !== 'number' || typeof b !== 'number' ? false : a % b + b % a;
 ```
