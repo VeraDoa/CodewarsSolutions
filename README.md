@@ -318,3 +318,9 @@ const playerRankUp = points =>
 const myFirstKata = (a, b) =>
   typeof a !== 'number' || typeof b !== 'number' ? false : a % b + b % a;
 ```
+*8 kyu L1: Set Alarm*
+* https://www.codewars.com/kata/l1-set-alarm/train/javascript
+```javascript
+const setAlarm = (employed, vacation) => employed && !vacation;
+```
+
