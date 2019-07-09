@@ -330,3 +330,10 @@ function boolToWord(bool) {
   return bool ? 'Yes' : 'No';
 }
 ```
+*8 kyu Sentence Smash*
+* https://www.codewars.com/kata/sentence-smash/train/javascript
+```javascript
+function smash (words) {
+  return words.join(' ');
+}
+```
