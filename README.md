@@ -337,3 +337,10 @@ function smash (words) {
   return words.join(' ');
 }
 ```
+*8 kyu Remove String Spaces*
+* https://www.codewars.com/kata/remove-string-spaces/train/javascript
+```javascript
+function noSpace(x) {
+  return x.replace(/ /g, '');
+}
+```
