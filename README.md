@@ -344,3 +344,10 @@ function noSpace(x) {
   return x.replace(/ /g, '');
 }
 ```
+*8 kyu Find the Remainder*
+* https://www.codewars.com/kata/find-the-remainder/train/javascript
+```javascript
+function remainder(a, b) {
+  return (a > b ? a % b : b % a)
+}
+```
