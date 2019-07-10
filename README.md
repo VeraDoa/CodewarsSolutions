@@ -351,3 +351,10 @@ function remainder(a, b) {
   return (a > b ? a % b : b % a)
 }
 ```
+*8 kyu Filter Coffee*
+* https://www.codewars.com/kata/filter-coffee/train/javascript
+```javascript
+function search(budget, prices) {
+return prices.filter((el) => el <= budget).sort((a,b) => a-b).join();
+}
+```
