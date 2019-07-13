@@ -389,3 +389,10 @@ function find_average(array) {
   return (sum / count);
 }
 ```
+*8 kyu Miles per gallon to kilometers per liter*
+* https://www.codewars.com/kata/miles-per-gallon-to-kilometers-per-liter/train/javascript
+```javascript
+function converter (mpg) {
+  return +(mpg * 0.3540060435382138).toFixed(2)
+}
+```
