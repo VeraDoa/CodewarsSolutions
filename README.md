@@ -376,3 +376,16 @@ function removeEveryOther(arr) {
   });
 }
 ```
+*8 kyu Calculate average*
+* https://www.codewars.com/kata/calculate-average/train/javascript
+```javascript
+function find_average(array) {
+  let sum = 0;
+  let count = 0;
+  for (let i = 0; i < array.length; i++) {
+    sum += array[i];
+    count++;
+  }
+  return (sum / count);
+}
+```
