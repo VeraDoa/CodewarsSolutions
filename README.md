@@ -358,3 +358,14 @@ function search(budget, prices) {
 return prices.filter((el) => el <= budget).sort((a,b) => a-b).join();
 }
 ```
+*8 kyu Removing Elements*
+* https://www.codewars.com/kata/removing-elements/train/javascript
+```javascript
+function removeEveryOther(arr) {
+  let newArr = [];
+  for (let i = 0; i < arr.length; i = i + 2) {
+    newArr.push(arr[i]);
+  }
+  return newArr;
+}
+```
