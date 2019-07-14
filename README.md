@@ -396,3 +396,16 @@ function converter (mpg) {
   return +(mpg * 0.3540060435382138).toFixed(2)
 }
 ```
+*8 kyu Sum of differences in array*
+* https://www.codewars.com/kata/sum-of-differences-in-array/train/javascript
+```javascript
+function sumOfDifferences(arr) {
+  let sum = 0;
+  arr.sort((a, b) => b - a);
+  for (let i = 0; i < arr.length - 1; i++) {
+    sum += (arr[i] - arr[i + 1]);
+  }
+  return sum;
+}
+```
+
