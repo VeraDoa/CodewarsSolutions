@@ -408,4 +408,16 @@ function sumOfDifferences(arr) {
   return sum;
 }
 ```
+*8 kyu Add Length*
+* https://www.codewars.com/kata/add-length/train/javascript
+```javascript
+function addLength(str) {
+  let arr = [];
+  let arr2 = str.split(' ');
+  for (let i = 0; i < arr2.length; i++){
+    arr.push(arr2[i] + ' ' + arr2[i].length);
+  }
+  return arr;
+}
+```
 
