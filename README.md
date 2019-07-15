@@ -420,4 +420,15 @@ function addLength(str) {
   return arr;
 }
 ```
+*8 kyu Return Negative*
+* https://www.codewars.com/kata/return-negative/train/javascript
+```javascript
+function makeNegative(num) {
+  if (num > 0) {
+    return -num;
+  } else {
+    return num;
+  }
+}
+```
 
