@@ -458,5 +458,15 @@ function rentalCarCost(d) {
  return d * 40;
  }
  ```
+ *8 kyu Summation*
+ * https://www.codewars.com/kata/grasshopper-summation/train/javascript
+ ```javascript
+ function summation(num) {
+   let sum = 0;
+   for (let i = 0; i <= num; i++)
+     sum += i;
+   return sum;
+ }
+ ```
 
 
