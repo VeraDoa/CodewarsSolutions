@@ -438,5 +438,16 @@ function otherAngle(a, b) {
   return 180 - (a + b);
 }
 ```
+*8 kyu Power*
+* https://www.codewars.com/kata/power/train/javascript
+```javascript
+function numberToPower(number, power) {
+  let result = 1;
+  for (let i = 1; i <= power; i++) {
+    result = number * result;
+  }
+  return result;
+}
+```
 
 
