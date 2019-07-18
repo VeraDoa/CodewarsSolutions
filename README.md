@@ -507,5 +507,12 @@ if (oscar < 88) return ('When will you give Leo an Oscar?');
 if (oscar > 88) return ('Leo got one already!');
 }
 ```
+*8 kyu Is It Even?*
+* https://www.codewars.com/kata/is-it-even/train/javascript
+```javascript
+function testEven(n) {
+   return n % 2 === 0;
+}
+```
 
 
