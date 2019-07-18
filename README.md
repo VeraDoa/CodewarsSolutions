@@ -514,5 +514,12 @@ function testEven(n) {
    return n % 2 === 0;
 }
 ```
+*8 kyu Bin to Decimal*
+* https://www.codewars.com/kata/bin-to-decimal/train/javascript
+```javascript
+function binToDec(bin) {
+  return parseInt(bin, 2);
+}
+```
 
 
