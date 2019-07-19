@@ -533,3 +533,12 @@ function countBy(x, n) {
   return z;
 }
 ```
+*8 kyu A function within a function*
+* https://www.codewars.com/kata/53844152aa6fc137d8000589
+```javascript
+function always (n) {
+  return function() {
+  return n;
+  }
+}
+```
