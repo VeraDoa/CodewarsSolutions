@@ -542,3 +542,14 @@ function always (n) {
   }
 }
 ```
+*8 kyu Unfinished Loop - Bug Fixing #1*
+* https://www.codewars.com/kata/unfinished-loop-bug-fixing-number-1/train/javascript
+```javascript
+function createArray(number) {
+  let newArray = [];
+  for (let i = 1; i <= number; i++) {
+    newArray.push(i);
+  }
+  return newArray;
+}
+```
