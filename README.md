@@ -553,3 +553,24 @@ function createArray(number) {
   return newArray;
 }
 ```
+*8 kyu Simple Calculator*
+* https://www.codewars.com/kata/simple-calculator/train/javascript
+```javascript
+function calculator(a, b, sign) {
+  if (typeof a !== 'number' || typeof b !== 'number') {
+    return 'unknown value';
+    }
+  switch (sign) {
+    case ('+'):
+      return a + b;
+    case ('-'):
+      return a - b;
+    case ('*'):
+      return a * b;
+    case ('/'):
+      return a / b;
+    default:
+      return 'unknown value';
+  }
+}
+```
