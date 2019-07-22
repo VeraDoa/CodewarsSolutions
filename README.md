@@ -574,3 +574,10 @@ function calculator(a, b, sign) {
   }
 }
 ```
+*8 kyu You Can't Code Under Pressure #1*
+* https://www.codewars.com/kata/you-cant-code-under-pressure-number-1/train/javascript
+```javascript
+function doubleInteger(i) {
+  return i * 2;
+}
+```
