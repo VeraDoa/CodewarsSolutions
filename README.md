@@ -581,3 +581,17 @@ function doubleInteger(i) {
   return i * 2;
 }
 ```
+*8 kyu Sort and Star*
+* https://www.codewars.com/kata/sort-and-star/train/javascript
+```javascript
+function twoSort(s) {
+  let arr = [];
+  s.sort();
+  for (let i = 0; i <= s.length; i++) {
+    if (s[i] === s[0]) {
+      arr.push(s[i]);
+    }
+    return (arr.join('').split('').join('***'));
+  }
+}
+```
