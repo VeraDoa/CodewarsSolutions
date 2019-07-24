@@ -602,3 +602,10 @@ function binToDec(bin) {
   return parseInt(bin, 2);
 }
 ```
+*8 kyu Is it even?*
+* https://www.codewars.com/kata/is-it-even/train/javascript
+```javascript
+function testEven(n) {
+   return n % 2 === 0;
+}
+```
