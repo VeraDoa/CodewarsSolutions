@@ -595,3 +595,10 @@ function twoSort(s) {
   }
 }
 ```
+*8 kyu Bin to Decimal*
+* https://www.codewars.com/kata/bin-to-decimal/train/javascript
+```javascript
+function binToDec(bin) {
+  return parseInt(bin, 2);
+}
+```
