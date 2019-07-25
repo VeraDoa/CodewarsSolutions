@@ -616,3 +616,14 @@ function check(a, x) {
   return a.includes(x);
 }
 ```
+*8 kyu Square(n) Sum*
+* https://www.codewars.com/kata/square-n-sum/train/javascript
+```javascript
+function squareSum(numbers) {
+  let sum = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i] ** 2;
+  }
+  return sum;
+}
+```
