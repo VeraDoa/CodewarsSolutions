@@ -609,3 +609,10 @@ function testEven(n) {
    return n % 2 === 0;
 }
 ```
+*8 kyu No Loops 2 - You only need one*
+* https://www.codewars.com/kata/no-loops-2-you-only-need-one/train/javascript
+```javascript
+function check(a, x) {
+  return a.includes(x);
+}
+```
