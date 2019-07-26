@@ -634,3 +634,13 @@ function greaterThanLessThan(a, b, c) {
   return a < b < c === true;
 }
 ```
+*8 kyu Triple Trouble*
+* https://www.codewars.com/kata/triple-trouble-2/train/javascript
+function tripleTrouble(one, two, three) {
+  let res = '';
+  for (let i = 0; i < one.length; i++) {
+    res += `${one[i]}${two[i]}${three[i]}`;
+  }
+  return res;
+}
+```
