@@ -636,11 +636,19 @@ function greaterThanLessThan(a, b, c) {
 ```
 *8 kyu Triple Trouble*
 * https://www.codewars.com/kata/triple-trouble-2/train/javascript
+```javascript
 function tripleTrouble(one, two, three) {
   let res = '';
   for (let i = 0; i < one.length; i++) {
     res += `${one[i]}${two[i]}${three[i]}`;
   }
   return res;
+}
+```
+*8 kyu FIXME: Replace all dots*
+* https://www.codewars.com/kata/fixme-replace-all-dots/train/javascript
+```javascript
+const replaceDots = function(str) {
+  return str.replace(/\./g, '-');
 }
 ```
