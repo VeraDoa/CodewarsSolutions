@@ -627,3 +627,10 @@ function squareSum(numbers) {
   return sum;
 }
 ```
+*8 kyu noobCode 02: TRICKY QUESTIONS*
+* https://www.codewars.com/kata/noobcode-02-tricky-questions-primitives-and-operator-precedence/train/javascript
+```javascript
+function greaterThanLessThan(a, b, c) {
+  return a < b < c === true;
+}
+```
