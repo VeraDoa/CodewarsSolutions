@@ -652,3 +652,15 @@ const replaceDots = function(str) {
   return str.replace(/\./g, '-');
 }
 ```
+*8 kyu Invert values*
+* https://www.codewars.com/kata/invert-values/train/javascript
+```javascript
+function invert(arr) {
+  let res = [];
+  for (let i = 0; i < arr.length; i++) {
+    arr[i] = -arr[i];
+    res.push(arr[i]);
+  }
+  return res;
+}
+```
