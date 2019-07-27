@@ -664,3 +664,13 @@ function invert(arr) {
   return res;
 }
 ```
+*8 kyu Sum of Multiples*
+* https://www.codewars.com/kata/sum-of-multiples/train/javascript
+```javascript
+function sumMul(n, m) {
+  let sum = 0;
+  for (let i = n; i < m; i += n)
+    sum += i;
+  return (n >= m) ? "INVALID" : sum;
+}
+```
