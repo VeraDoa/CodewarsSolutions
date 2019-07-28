@@ -674,3 +674,11 @@ function sumMul(n, m) {
   return (n >= m) ? "INVALID" : sum;
 }
 ```
+*8kyu repeatIt*
+* https://www.codewars.com/kata/repeatit/train/javascript
+```javascript
+let repeatIt = function(str, n) {
+  if (typeof str !== 'string') return 'Not a string';
+  return str.repeat(n);
+  }
+```
