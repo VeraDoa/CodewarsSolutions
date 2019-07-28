@@ -682,3 +682,10 @@ let repeatIt = function(str, n) {
   return str.repeat(n);
   }
 ```
+*8 kyu My head is at the wrong end!*
+* https://www.codewars.com/kata/my-head-is-at-the-wrong-end/train/javascript
+```javascript
+function fixTheMeerkat(arr) {
+  return arr.reverse();
+}
+```
