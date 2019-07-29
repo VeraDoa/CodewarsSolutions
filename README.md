@@ -689,3 +689,24 @@ function fixTheMeerkat(arr) {
   return arr.reverse();
 }
 ```
+*8 kyu I love you, a little , a lot, passionately ... not at all*
+* https://www.codewars.com/kata/i-love-you-a-little-a-lot-passionately-dot-dot-dot-not-at-all/train/javascript
+```javascript
+function howMuchILoveYou(nb_petals) {
+    let res = nb_petals % 6;
+    switch(res) {
+        case 1:
+            return "I love you";
+        case 2:
+            return "a little";
+        case 3:
+            return "a lot";
+        case 4:
+            return "passionately";
+        case 5:
+            return "madly";
+        default:
+            return "not at all";
+    }
+}
+```
