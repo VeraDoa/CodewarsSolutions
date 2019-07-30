@@ -710,3 +710,10 @@ function howMuchILoveYou(nb_petals) {
     }
 }
 ```
+*8 kyu Potenciation*
+* https://www.codewars.com/kata/potenciation/train/javascript
+```javascript
+function power(x, y) {
+  return x **y;
+}
+```
