@@ -717,3 +717,11 @@ function power(x, y) {
   return x **y;
 }
 ```
+*8 kyu Can we divide it?*
+* https://www.codewars.com/kata/can-we-divide-it/train/javascript
+```javascript
+function isDivideBy(number, a, b) {
+  if (number % a === 0 && number % b === 0) return true;
+  return false;
+}
+```
