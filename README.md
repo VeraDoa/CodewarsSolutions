@@ -732,3 +732,8 @@ function typeValidation(variable, type) {
   return (typeof variable === type) ? true : false;
 }
 ```
+*8 kyu Mr. Freeze*
+* https://www.codewars.com/kata/mr-freeze/train/javascript
+```javascript
+Object.freeze(MrFreeze)
+```
