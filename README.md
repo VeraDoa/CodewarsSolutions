@@ -737,3 +737,18 @@ function typeValidation(variable, type) {
 ```javascript
 Object.freeze(MrFreeze)
 ```
+*8 kyu Playing with cubes I Java*
+* https://www.codewars.com/kata/playing-with-cubes-i/train/csharp
+```javascript
+public class Cube {
+    int side;
+
+    int getSide(){
+        return side;
+    }
+
+    void setSide(int side) {
+        this.side = side;
+    }
+}
+```
