@@ -759,3 +759,8 @@ const isReallyNaN = (val) => {
   return (val === val) ? false : true;
 }
 ```
+*8 kyu !a == a ?!*
+* https://www.codewars.com/kata/a-equals-equals-a/train/javascript
+```javascript
+const a = [];
+```
