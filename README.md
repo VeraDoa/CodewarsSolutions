@@ -752,3 +752,10 @@ public class Cube {
     }
 }
 ```
+*8 kyu isReallyNaN*
+* https://www.codewars.com/kata/isreallynan/train/javascript
+```javascript
+const isReallyNaN = (val) => {
+  return (val === val) ? false : true;
+}
+```
