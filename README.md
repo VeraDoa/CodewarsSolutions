@@ -764,3 +764,10 @@ const isReallyNaN = (val) => {
 ```javascript
 const a = [];
 ```
+*8 kyu Grasshopper - Terminal game move function*
+* https://www.codewars.com/kata/grasshopper-terminal-game-move-function/train/javascript
+```javascript
+function move (position, roll) {
+  return position + roll * 2;
+}
+```
