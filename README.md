@@ -779,4 +779,21 @@ function sumOfABeach(beach) {
   let arr = beach.match(reg);
   return arr === null ? 0 : arr.length;
 }
-``
+```
+*7 kyu Array Leaders (Array Series #3)*
+* https://www.codewars.com/kata/array-leaders-array-series-number-3/train/javascript
+```javascript
+let arrayLeaders = num => {
+  let arr = [];
+  for (let i = 0; i < num.length; i++) {
+    let sum = 0;
+    for (let j = i + 1; j < num.length; j++) {
+      sum += num[j];
+    }
+    if (num[i] > sum) {
+      arr.push(num[i]);
+    }
+  }
+  return arr;
+}
+```
