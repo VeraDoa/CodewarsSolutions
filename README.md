@@ -771,3 +771,12 @@ function move (position, roll) {
   return position + roll * 2;
 }
 ```
+*7 kyu Sum of a Beach*
+* https://www.codewars.com/kata/sum-of-a-beach/train/javascript
+```javascript
+function sumOfABeach(beach) {
+  let reg = /sand|water|fish|sun/gi;
+  let arr = beach.match(reg);
+  return arr === null ? 0 : arr.length;
+}
+``
