@@ -829,3 +829,18 @@ function accum(s) {
   return newStr.substr(0, newStr.length - 1);
 }
 ```
+*7 kyu Sum of Array Averages*
+* https://www.codewars.com/kata/sum-of-array-averages/train/javascript
+```javascript
+const sumAverage = (arr) => {
+  let res = 0;
+  for(let i = 0; i < arr.length; i++) {
+    let sum = 0;
+    for(let j = 0; j < arr[i].length; j++) {
+    sum += arr[i][j];
+    }
+  res += sum/arr[i].length;
+  }
+  return Math.floor(res);
+}
+```
