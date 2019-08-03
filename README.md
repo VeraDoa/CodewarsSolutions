@@ -817,3 +817,15 @@ function evalObject(value) {
   }
 }
 ```
+*7 kyu Mumbling*
+* https://www.codewars.com/kata/mumbling/train/javascript
+```javascript
+function accum(s) {
+  let str = s.toUpperCase();
+  let newStr = '';
+  for (let i = 0; i < str.length; i++) {
+    newStr += str[i] + str[i].toLowerCase().repeat(i) + '-';
+  }
+  return newStr.substr(0, newStr.length - 1);
+}
+```
