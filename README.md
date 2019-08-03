@@ -797,3 +797,23 @@ let arrayLeaders = num => {
   return arr;
 }
 ```
+*8 kyu Switch/Case - Bug Fixing #6*
+* https://www.codewars.com/kata/switch-slash-case-bug-fixing-number-6/train/javascript
+```javascript
+function evalObject(value) {
+  switch (value.operation) {
+    case '+':
+      return value.a + value.b;
+    case '-':
+      return value.a - value.b;
+    case '/':
+      return value.a / value.b;
+    case '*':
+      return value.a * value.b;
+    case '%':
+      return value.a % value.b;
+    case '^':
+      return Math.pow(value.a, value.b);
+  }
+}
+```
