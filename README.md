@@ -853,3 +853,11 @@ let number = function(busStops) {
   }, 0);
 }
 ```
+*7 kyu Sum of two lowest positive integers*
+*
+```javascript
+function sumTwoSmallestNumbers(num) {
+  let arr = num.sort((a, b) => a - b);
+  return arr[0] + arr[1];
+}
+```
