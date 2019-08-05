@@ -868,3 +868,10 @@ function squareDigits(num){
 return (+(num + '').split('').map(el => el * el).join(''));
 }
 ```
+*7 kyu Array Appender*
+* https://www.codewars.com/kata/array-appender/train/javascript
+```javascript
+function appendArrays(arr1, arr2) {
+  return arr1.concat(arr2);
+}
+```
