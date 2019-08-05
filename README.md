@@ -854,10 +854,17 @@ let number = function(busStops) {
 }
 ```
 *7 kyu Sum of two lowest positive integers*
-*
+* https://www.codewars.com/kata/sum-of-two-lowest-positive-integers/train/javascript
 ```javascript
 function sumTwoSmallestNumbers(num) {
   let arr = num.sort((a, b) => a - b);
   return arr[0] + arr[1];
+}
+```
+*7 kyu Square Every Digit*
+* https://www.codewars.com/kata/square-every-digit/train/javascript
+```javascript
+function squareDigits(num){
+return (+(num + '').split('').map(el => el * el).join(''));
 }
 ```
