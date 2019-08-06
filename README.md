@@ -882,3 +882,8 @@ function reverseWords(str) {
   return str.split('').reverse().join('').split(' ').reverse().join(' ');
 }
 ```
+*7 kyu One Line Task: Area Or Perimeter*
+* https://www.codewars.com/kata/one-line-task-area-or-perimeter/train/javascript
+```javascript
+areaOrPerimeter=(l,w)=>l-w?2*l+2*w:l*w
+```
