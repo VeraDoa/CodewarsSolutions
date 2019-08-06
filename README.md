@@ -875,3 +875,10 @@ function appendArrays(arr1, arr2) {
   return arr1.concat(arr2);
 }
 ```
+*7 kyu Reverse words*
+* https://www.codewars.com/kata/reverse-words/train/javascript
+```javascript
+function reverseWords(str) {
+  return str.split('').reverse().join('').split(' ').reverse().join(' ');
+}
+```
