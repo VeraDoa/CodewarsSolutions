@@ -887,3 +887,10 @@ function reverseWords(str) {
 ```javascript
 areaOrPerimeter=(l,w)=>l-w?2*l+2*w:l*w
 ```
+*8 kyu Are arrow functions odd?*
+* https://www.codewars.com/kata/are-arrow-functions-odd/train/javascript
+```javascript
+function odds(values) {
+  return values.filter(a => a % 2 === 1);
+}
+```
