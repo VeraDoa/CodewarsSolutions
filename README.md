@@ -894,3 +894,26 @@ function odds(values) {
   return values.filter(a => a % 2 === 1);
 }
 ```
+*5 kyu Valid Parentheses*
+* https://www.codewars.com/kata/valid-parentheses/train/javascript
+```javascript
+function validParentheses(parens) {
+  let count = 0;
+  for (let i = 0; i < parens.length; i++) {
+    if (parens[i] === '(') {
+      count++;
+    }
+    if (parens[i] === ')') {
+      count--;
+    }
+    if (count < 0) {
+      return false;
+    }
+  }
+  if (count === 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+```
