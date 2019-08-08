@@ -938,3 +938,11 @@ function validBraces(braces) {
   return arr.length === 0;
 }
 ```
+*8 kyu Beginner Series #1 School Paperwork*
+* https://www.codewars.com/kata/beginner-series-number-1-school-paperwork/train/csharp
+```javascript
+function paperwork(n, m) {
+  if (n < 0 || m < 0) return 0;
+  return n * m;
+}
+```
