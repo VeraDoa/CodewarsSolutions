@@ -946,3 +946,10 @@ function paperwork(n, m) {
   return n * m;
 }
 ```
+*8 kyu Messi goals function*
+* https://www.codewars.com/kata/grasshopper-messi-goals-function/train/javascript
+```javascript
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
+}
+```
