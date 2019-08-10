@@ -953,3 +953,17 @@ function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
   return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
 }
 ```
+*7 kyu Get the Middle Character*
+* https://www.codewars.com/kata/get-the-middle-character/train/javascript
+```javascript
+function getMiddle(s) {
+    let res;
+    let mid = Math.floor(s.length / 2)
+    if (s.length % 2 === 0) {
+      res = s[mid - 1] + s[mid];
+    } else {
+      res = s[mid];
+    }
+    return res;
+  }
+```
