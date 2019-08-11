@@ -992,3 +992,10 @@ function getRealFloor(n) {
   return n - 2;
 }
 ```
+*8 kyu Remove exclamation marks*
+* https://www.codewars.com/kata/remove-exclamation-marks/train/javascript
+```javascript
+function removeExclamationMarks(s) {
+   return s.replace(/!/gi,'');
+}
+```
