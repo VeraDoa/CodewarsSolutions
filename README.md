@@ -999,3 +999,17 @@ function removeExclamationMarks(s) {
    return s.replace(/!/gi,'');
 }
 ```
+*7 kyu Disemvowel Trolls*
+* https://www.codewars.com/kata/disemvowel-trolls/train/javascript
+```javascript
+function disemvowel(str) {
+  let vow = 'AaEeIiOoUu';
+  let res = '';
+  for (let i = 0; i < str.length; i++) {
+    if (!vow.includes(str[i])) {
+      res += str[i];
+    }
+  }
+  return res;
+}
+```
