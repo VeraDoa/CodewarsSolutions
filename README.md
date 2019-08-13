@@ -1013,3 +1013,10 @@ function disemvowel(str) {
   return res;
 }
 ```
+*8 kyu Is the string uppercase?*
+* https://www.codewars.com/kata/is-the-string-uppercase/train/javascript
+```javascript
+String.prototype.isUpperCase = function() {
+  return this.toString() === this.toUpperCase()
+}
+```
