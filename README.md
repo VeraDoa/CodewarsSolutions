@@ -1027,3 +1027,20 @@ function isDivisible(n, x, y) {
   return n % x === 0 && n % y === 0;
 }
 ```
+*8 kyu Grasshopper - Debug*
+* https://www.codewars.com/kata/grasshopper-debug/train/javascript
+```javascript
+function weatherInfo(temp) {
+  let celsius = (temp - 32) * (5 / 9);
+  if (celsius > 0) {
+    return (celsius + " is above freezing temperature")
+  } else {
+    return (celsius + " is freezing temperature")
+  }
+}
+
+function convertToCelsius(temperature) {
+  let celsius = (temperature - 32) * (5 / 9);
+  return temperature;
+}
+```
