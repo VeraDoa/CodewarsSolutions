@@ -1056,3 +1056,12 @@ function points(games) {
   return count;
 }
 ```
+*8 kyu Abbreviate a Two Word Name*
+* https://www.codewars.com/kata/abbreviate-a-two-word-name/train/javascript
+```javascript
+const abbrevName = name =>
+  name
+  .split(' ')
+  .map(name => name[0].toUpperCase())
+  .join('.');
+```
