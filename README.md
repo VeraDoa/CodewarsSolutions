@@ -1065,3 +1065,15 @@ const abbrevName = name =>
   .map(name => name[0].toUpperCase())
   .join('.');
 ```
+*8 kyu What's up next?*
+* https://www.codewars.com/kata/whats-up-next/train/javascript
+```javascript
+function nextItem(xs, item) {
+  let found = false;
+  for (let el of xs) {
+    if (found) return el;
+    if (el === item) found = true;
+  }
+  return undefined;
+}
+```
