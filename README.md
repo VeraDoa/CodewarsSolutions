@@ -1077,3 +1077,11 @@ function nextItem(xs, item) {
   return undefined;
 }
 ```
+*8 kyu You only need one - Beginner*
+* https://www.codewars.com/kata/you-only-need-one-beginner/train/javascript
+```javascript
+function check(a, x) {
+  if (a.indexOf(x) >= 0) return true;
+  return false;
+}
+```
