@@ -1085,3 +1085,10 @@ function check(a, x) {
   return false;
 }
 ```
+*8 kyu Sum The Strings*
+* https://www.codewars.com/kata/sum-the-strings/train/javascript
+```javascript
+function sumStr(a, b) {
+  return (+a + +b).toString();
+}
+```
