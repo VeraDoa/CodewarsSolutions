@@ -1099,3 +1099,25 @@ function grow(x) {
   return x.reduce((a, b) => a * b);
 }
 ```
+*8 kyu Find Maximum and Minimum Values of a List*
+* https://www.codewars.com/kata/find-maximum-and-minimum-values-of-a-list/train/javascript
+```javascript
+let min = function(list) {
+  let min = list[0];
+  for (let i = 1; i < list.length; i++) {
+    if (list[i] < min) {
+      min = list[i];
+    }
+  }
+  return min;
+}
+let max = function(list) {
+  let max = list[0];
+  for (let i = 1; i < list.length; i++) {
+    if (list[i] > max) {
+      max = list[i];
+    }
+  }
+  return max;
+}
+```
