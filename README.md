@@ -1121,3 +1121,10 @@ let max = function(list) {
   return max;
 }
 ```
+*8 kyu Beginner - Lost Without a Map*
+* https://www.codewars.com/kata/beginner-lost-without-a-map/train/javascript
+```javascript
+function maps(x) {
+  return x.map(num => num * 2);
+}
+```
