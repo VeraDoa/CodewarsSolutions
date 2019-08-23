@@ -1128,3 +1128,10 @@ function maps(x) {
   return x.map(num => num * 2);
 }
 ```
+*8 kyu All Star Code Challenge #18*
+* https://www.codewars.com/kata/all-star-code-challenge-number-18/train/javascript
+```javascript
+function strCount(str, letter) {
+  return str.split(letter).length -1;
+}
+```
