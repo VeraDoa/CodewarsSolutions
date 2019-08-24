@@ -1135,3 +1135,21 @@ function strCount(str, letter) {
   return str.split(letter).length -1;
 }
 ```
+*8 kyu Check the exam*
+* https://www.codewars.com/kata/check-the-exam/train/javascript
+```javascript
+function checkExam(arr1, arr2) {
+  let sum = 0;
+  for (let i = 0; i < arr1.length; i++) {
+    if (arr1[i] === arr2[i]) {
+      sum += 4;
+    } else if (arr1[i] !== arr2[i] && arr2[i] !== '') {
+      sum -= 1;
+    }
+  }
+  if (sum < 0) {
+    sum = 0;
+  }
+  return sum;
+}
+```
