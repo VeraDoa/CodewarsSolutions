@@ -1153,3 +1153,10 @@ function checkExam(arr1, arr2) {
   return sum;
 }
 ```
+*7 kyu Array comparator*
+* https://www.codewars.com/kata/array-comparator/train/javascript
+```javascript
+function matchArrays(a, b) {
+  return a.filter((el) => b.includes(el)).length;
+}
+```
