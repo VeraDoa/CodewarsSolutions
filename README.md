@@ -1160,3 +1160,20 @@ function matchArrays(a, b) {
   return a.filter((el) => b.includes(el)).length;
 }
 ```
+*7 kyu Adding Arrays*
+* https://www.codewars.com/kata/adding-arrays/train/javascript
+```javascript
+function arrAdder(arr) {
+  let newArr = [];
+  for (let i = 0; i < arr[0].length; i++) {
+    let res = [];
+    for (let j = 0; j < arr.length; j++) {
+      if (arr[j][i] !== '')
+        res.push(arr[j][i]);
+    }
+    newArr.push(res.join(''));
+  }
+
+  return newArr.join(' ').trim();
+}
+```
