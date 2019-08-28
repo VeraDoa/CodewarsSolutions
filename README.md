@@ -1177,3 +1177,10 @@ function arrAdder(arr) {
   return newArr.join(' ').trim();
 }
 ```
+*7 kyu Add property to every object in array*
+* https://www.codewars.com/kata/add-property-to-every-object-in-array/train/javascript
+```javascript
+questions.forEach(function(q) {
+  q.usersAnswer = null;
+});
+```
