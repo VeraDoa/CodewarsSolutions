@@ -1184,3 +1184,21 @@ questions.forEach(function(q) {
   q.usersAnswer = null;
 });
 ```
+*7 kyu Nice Array*
+* https://www.codewars.com/kata/nice-array/train/javascript
+```javascript
+function isNice(arr) {
+  if (arr.length === 0) return false;
+  let a;
+  for (let i = 0; i < arr.length; i++) {
+    a = 0;
+    for (let j = 0; j < arr.length; j++) {
+      if (arr[i] === arr[j] + 1 || arr[i] === arr[j] - 1) {
+        a = 1;
+      }
+    }
+    if (a === 0) return false;
+  }
+  return true;
+}
+```
