@@ -1207,3 +1207,27 @@ function isNice(arr) {
 ```javascript
 let take = (arr, n) => arr.slice(0, n);
 ```
+*6 kyu Persistent Bugger*
+* https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec
+```javascript
+function persistence(num) {
+  let res = 0;
+  num = num.toString();
+  while (num.length > 1) {
+    res++;
+    num = num.split('').map(Number).reduce((a, b) => a * b).toString();
+  }
+  return res;
+}
+```
+*8 kyu Are You Playing Banjo?*
+* https://www.codewars.com/kata/are-you-playing-banjo/train/javascript
+```javascript
+function areYouPlayingBanjo(name) {
+   if(name[0] === 'R' || name[0] === 'r') {
+   return name + ' plays banjo';
+   } else {
+   return name + ' does not play banjo';
+   }
+}
+```
