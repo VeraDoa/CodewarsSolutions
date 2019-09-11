@@ -1238,3 +1238,10 @@ function lovefunc(flower1, flower2) {
   return (flower1 % 2 !== flower2 % 2);
 }
 ```
+*8 kyu Welcome to the City*
+* https://www.codewars.com/kata/welcome-to-the-city/train/javascript
+```javascript
+function sayHello(name, city, state) {
+ return `Hello, ${name.join(' ')}! Welcome to ${city}, ${state}!`;
+}
+```
