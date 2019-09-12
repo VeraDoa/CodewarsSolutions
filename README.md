@@ -1245,3 +1245,13 @@ function sayHello(name, city, state) {
  return `Hello, ${name.join(' ')}! Welcome to ${city}, ${state}!`;
 }
 ```
+*8 kyu Basic Mathematical Operations*
+* https://www.codewars.com/kata/basic-mathematical-operations/train/javascript
+```javascript
+function basicOp(operation, value1, value2) {
+  if(operation === '+')return value1 + value2;
+  if(operation === '-')return value1 - value2;
+  if(operation === '*')return value1 * value2;
+  if(operation === '/')return value1 / value2;
+}
+```
