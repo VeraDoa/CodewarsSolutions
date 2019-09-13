@@ -1255,3 +1255,10 @@ function basicOp(operation, value1, value2) {
   if(operation === '/')return value1 / value2;
 }
 ```
+*8 kyu Square(n) Sum*
+* https://www.codewars.com/kata/square-n-sum/train/javascript
+```javascript
+function squareSum(numbers) {
+  return numbers.reduce((a, b) => a + Math.pow(b, 2), 0);
+}
+```
