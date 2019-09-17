@@ -1262,3 +1262,12 @@ function squareSum(numbers) {
   return numbers.reduce((a, b) => a + Math.pow(b, 2), 0);
 }
 ```
+*8 kyu "this" is a problem*
+* https://www.codewars.com/kata/this-is-a-problem/train/javascript
+```javascript
+function NameMe(first, last) {
+  this.firstName = first;
+  this.lastName = last;
+  return this.name = `${first} ${last}`;
+}
+```
