@@ -1271,3 +1271,10 @@ function NameMe(first, last) {
   return this.name = `${first} ${last}`;
 }
 ```
+*8 kyu Plural*
+* https://www.codewars.com/kata/plural/train/javascript
+```javascript
+function plural(n) {
+  return n !== 1;
+}
+```
