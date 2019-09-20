@@ -1278,3 +1278,14 @@ function plural(n) {
   return n !== 1;
 }
 ```
+*7 kyu Arithmetic sequence - sum of n elements*
+* https://www.codewars.com/kata/arithmetic-sequence-sum-of-n-elements/train/javascript
+```javascript
+function ArithmeticSequenceSum(a, r, n) {
+  let arr = [];
+  for (let i = 0; i < n; i++) {
+    arr.push(a + r * i);
+  }
+  return arr.reduce((a, b) => a + b, 0);
+}
+```
