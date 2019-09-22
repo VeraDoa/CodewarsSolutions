@@ -1289,3 +1289,17 @@ function ArithmeticSequenceSum(a, r, n) {
   return arr.reduce((a, b) => a + b, 0);
 }
 ```
+*7 kyu Coding 3min: Bug in Apple*
+* https://www.codewars.com/kata/coding-3min-bug-in-apple/train/javascript
+```javascript
+function sc(apple) {
+  for (let i = 0; i < apple.length; i++) {
+    for (let j = 0; j < apple[i].length; j++) {
+      if (apple[i][j] == "B") {
+        return [i, j];
+      }
+    }
+  }
+  return null;
+}
+```
