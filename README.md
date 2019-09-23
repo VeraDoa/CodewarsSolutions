@@ -1303,3 +1303,11 @@ function sc(apple) {
   return null;
 }
 ```
+*7 kyu Say hello!*
+* https://www.codewars.com/kata/say-hello/train/javascript
+```javascript
+function greet(name) {
+ if(name === null || name.length === 0) return null;
+ return `hello ${name}!`;
+}
+```
