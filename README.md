@@ -1322,3 +1322,10 @@ function twoSum(numbers, target) {
   }
 }
 ```
+*7 kyu Waiting room*
+* https://www.codewars.com/kata/waiting-room/train/javascript
+```javascript
+function lastChair(n) {
+  return n - 1;
+}
+```
