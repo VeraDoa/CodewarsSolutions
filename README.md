@@ -1329,3 +1329,10 @@ function lastChair(n) {
   return n - 1;
 }
 ```
+*7 kyu Leap Years*
+* https://www.codewars.com/kata/leap-years/train/javascript
+```javascript
+function isLeapYear(year) {
+  return (year % 100 !== 0 && year % 4 === 0) || year % 400 === 0;
+}
+```
