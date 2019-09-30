@@ -1341,3 +1341,10 @@ function isLeapYear(year) {
 ```javascript
 p=s=>[s,s,s].join('');
 ```
+*8 kyu Are there any arrows left?*
+* https://www.codewars.com/kata/are-there-any-arrows-left/train/javascript
+```javascript
+function anyArrows(arrows) {
+  return arrows.some(arrow => !arrow.damaged);
+}
+```
