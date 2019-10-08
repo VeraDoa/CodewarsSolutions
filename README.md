@@ -1348,3 +1348,14 @@ function anyArrows(arrows) {
   return arrows.some(arrow => !arrow.damaged);
 }
 ```
+*7 kyu Fast Fibonacci*
+* https://www.codewars.com/kata/fast-fibonacci/train/javascript
+```javascript
+function fib(num) {
+  let arr = [0, 1];
+  for (let i = 0; i < num; i++) {
+    arr.push(arr[i] + arr[i + 1])
+  }
+  return arr[arr.length - 2];
+}
+```
