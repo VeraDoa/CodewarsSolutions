@@ -1359,3 +1359,11 @@ function fib(num) {
   return arr[arr.length - 2];
 }
 ```
+*7 kyu Covfefe*
+* https://www.codewars.com/kata/covfefe/train/javascript
+```javascript
+function covfefe(str) {
+  if (str.includes('coverage')) return str.replace(/coverage/g,'covfefe');
+  return str + ' covfefe';
+}
+```
