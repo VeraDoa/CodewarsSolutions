@@ -1367,3 +1367,17 @@ function covfefe(str) {
   return str + ' covfefe';
 }
 ```
+*6 kyu Equal Sides Of An Array*
+* https://www.codewars.com/kata/equal-sides-of-an-array/train/javascript
+```javascript
+function findEvenIndex(arr) {
+  let arrR = arr.reduce((a, b) => a + b, 0);
+  let arrL = 0;
+  for (let i = 0; i < arr.length; i++) {
+    if (i > 0) arrL += arr[i - 1];
+    arrR -= arr[i];
+    if (arrL === arrR) return i;
+  }
+  return -1;
+}
+```
