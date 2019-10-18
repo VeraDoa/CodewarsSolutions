@@ -1381,3 +1381,10 @@ function findEvenIndex(arr) {
   return -1;
 }
 ```
+*8 kyu Simple Fun #1: Seats in Theater*
+* https://www.codewars.com/kata/simple-fun-number-1-seats-in-theater/train/javascript
+```javascript
+function seatsInTheater(nCols, nRows, col, row) {
+  return (nRows - row) * (nCols - col + 1);
+}
+```
