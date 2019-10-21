@@ -1388,3 +1388,11 @@ function seatsInTheater(nCols, nRows, col, row) {
   return (nRows - row) * (nCols - col + 1);
 }
 ```
+*7 kyu Empty that array!*
+* https://www.codewars.com/kata/empty-that-array/train/javascript
+```javascript
+function empty(array) {
+  array.length = 0;
+  return array;
+}
+```
