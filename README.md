@@ -1408,3 +1408,15 @@ function total(arr) {
   return total(res);
 }
 ```
+*8 kyu Adding ordinal indicator suffixes to numbers*
+* https://www.codewars.com/kata/adding-ordinal-indicator-suffixes-to-numbers/train/javascript
+```javascript
+function numberToOrdinal(n) {
+let suf = 'th';
+if (n === 0) suf = '';
+if (n % 10 === 1 && n % 100 != 11) suf = 'st';
+if (n % 10 === 2 && n % 100 != 12) suf = 'nd';
+if (n % 10 === 3 && n % 100 != 13) suf = 'rd';
+  return n + suf;
+}
+```
