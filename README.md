@@ -1396,3 +1396,15 @@ function empty(array) {
   return array;
 }
 ```
+*7 kyu sum2total*
+* https://www.codewars.com/kata/sum2total/train/javascript
+```javascript
+function total(arr) {
+  if (arr.length === 1) return arr[0];
+  let res = [];
+  for (let i = 0; i < arr.length - 1; i++) {
+    res.push(arr[i] + arr[i + 1]);
+  }
+  return total(res);
+}
+```
