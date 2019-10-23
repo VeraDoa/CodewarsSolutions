@@ -1420,3 +1420,17 @@ if (n % 10 === 3 && n % 100 != 13) suf = 'rd';
   return n + suf;
 }
 ```
+*8 kyu Is there a vowel in there?*
+* https://www.codewars.com/kata/is-there-a-vowel-in-there/train/javascript
+```javascript
+function isVow(a) {
+  for (let i = 0; i < a.length; i++) {
+    if (a[i] === 97 || a[i] === 101 || a[i] === 105 || a[i] === 111 || a[i] === 117) {
+      let number = a[i];
+      let vowel = String.fromCharCode(number);
+      a[i] = vowel;
+    }
+  }
+  return a;
+}
+```
