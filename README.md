@@ -1434,3 +1434,19 @@ function isVow(a) {
   return a;
 }
 ```
+*8 kyu How good are you really?*
+* https://www.codewars.com/kata/how-good-are-you-really/train/javascript
+```javascript
+function betterThanAverage(classPoints, yourPoints) {
+  let sum = 0;
+  for (let i = 0; i < classPoints.length; i++) {
+    sum += classPoints[i];
+  }
+  sum = sum / classPoints.length
+  if (sum > yourPoints) {
+    return false
+  } else {
+    return true
+  }
+}
+```
