@@ -1450,3 +1450,14 @@ function betterThanAverage(classPoints, yourPoints) {
   }
 }
 ```
+*8 kyu Are You Playing Banjo?*
+* https://www.codewars.com/kata/are-you-playing-banjo/train/javascript
+```javascript
+function areYouPlayingBanjo(name) {
+   if(name[0] === 'R' || name[0] === 'r') {
+   return name + ' plays banjo';
+   } else {
+   return name + ' does not play banjo';
+   }
+}
+```
