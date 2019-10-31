@@ -1461,3 +1461,19 @@ function areYouPlayingBanjo(name) {
    }
 }
 ```
+*8 kyu To square(root) or not to square(root)*
+* https://www.codewars.com/kata/to-square-root-or-not-to-square-root/train/javascript
+```javascript
+function squareOrSquareRoot(array) {
+  let final = [];
+  for (let i = 0; i < array.length; i++) {
+    let number = array[i];
+    if (Math.sqrt(number) === Math.floor(Math.sqrt(number))) {
+      final.push(Math.sqrt(number));
+    } else {
+      final.push(number * number);
+    }
+  }
+  return final;
+}
+```
