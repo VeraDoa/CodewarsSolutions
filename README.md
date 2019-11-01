@@ -1477,3 +1477,16 @@ function squareOrSquareRoot(array) {
   return final;
 }
 ```
+*7 kyu List Filtering*
+* https://www.codewars.com/kata/list-filtering/train/javascript
+```javascript
+function filter_list(l) {
+  let arr = [];
+  for (let i = 0; i < l.length; i++) {
+    if (typeof l[i] === 'number') {
+      arr.push(l[i]);
+    }
+  }
+  return arr;
+}
+```
