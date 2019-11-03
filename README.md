@@ -1501,3 +1501,10 @@ const rps = (p1, p2) => {
   return 'Player 2 won!';
 };
 ```
+*8 kyu Duck Duck Goose*
+* https://www.codewars.com/kata/duck-duck-goose/train/javascript
+```javascript
+function duckDuckGoose(players, goose) {
+  return players[(goose - 1) % players.length].name;
+}
+```
