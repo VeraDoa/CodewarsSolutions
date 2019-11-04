@@ -1508,3 +1508,29 @@ function duckDuckGoose(players, goose) {
   return players[(goose - 1) % players.length].name;
 }
 ```
+*7 kyu Sorted? yes? no? how?*
+* https://www.codewars.com/kata/sorted-yes-no-how/train/javascript*
+```javascript
+function isSortedAndHow(array) {
+  let arr1 = [];
+  arr1 = arr1.concat(array);
+  arr1.sort(function(a, b) {
+    return a - b;
+  });
+  let arr2 = [];
+  arr2 = arr2.concat(array);
+  arr2.sort(function(a, b) {
+    return b - a;
+  });
+  arr1 = arr1.join('');
+  arr2 = arr2.join('');
+  array = array.join('');
+  if (arr1 === array) {
+    return 'yes, ascending';
+  } else if (arr2 === array) {
+    return 'yes, descending';
+  } else {
+    return 'no'
+  }
+}
+```
