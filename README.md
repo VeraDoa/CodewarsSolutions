@@ -1534,3 +1534,20 @@ function isSortedAndHow(array) {
   }
 }
 ```
+*6 kyu Find the unique number*
+* https://www.codewars.com/kata/find-the-unique-number-1/train/javascript*
+```javascript
+function findUniq(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] !== arr[i + 1] && arr[i] !== arr[i + 2]) {
+      return arr[i];
+    }
+    if (arr[i] !== arr[i + 1] && arr[i] === arr[i + 2]) {
+      return arr[i + 1];
+    }
+    if (arr[i] === arr[i + 1] && arr[i] !== arr[i + 2]) {
+      return arr[i + 2];
+    }
+  }
+}
+```
