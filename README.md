@@ -1573,3 +1573,16 @@ function likes(names) {
   }
 }
 ```
+*7 kyu Power of two*
+* https://www.codewars.com/kata/power-of-two/train/javascript*
+```javascript
+function isPowerOfTwo(n) {
+  for (let i = 0; i < n; i++) {
+    if (n === Math.pow(2, i)) {
+      return true;
+    } else {
+    }
+  }
+  return false;
+}
+```
