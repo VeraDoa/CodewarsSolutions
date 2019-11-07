@@ -1586,3 +1586,12 @@ function isPowerOfTwo(n) {
   return false;
 }
 ```
+*#2 solution*
+```javascript
+function isPowerOfTwo(n) {
+  if (n ** 0.5 === 1) return true;
+  if (n === 2) return true;
+  if (n < 2) return false;
+  return isPowerOfTwo(n / 2);
+}
+```
