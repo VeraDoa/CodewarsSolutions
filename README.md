@@ -1595,3 +1595,10 @@ function isPowerOfTwo(n) {
   return isPowerOfTwo(n / 2);
 }
 ```
+*8 kyu Get the mean of an array*
+* https://www.codewars.com/kata/get-the-mean-of-an-array/train/javascript
+```javascript
+function getAverage(marks) {
+  return Math.floor(marks.reduce((a, b) => a + b) / marks.length);
+}
+```
