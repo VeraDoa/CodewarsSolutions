@@ -1602,3 +1602,13 @@ function getAverage(marks) {
   return Math.floor(marks.reduce((a, b) => a + b) / marks.length);
 }
 ```
+*#2 solution*
+```javascript
+function getAverage(marks) {
+  let aver = 0;
+  for (let i = 0; i < marks.length; i++) {
+    aver += marks[i];
+  }
+  return Math.floor(aver / marks.length);
+}
+```
