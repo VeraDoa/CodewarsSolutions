@@ -1612,3 +1612,13 @@ function getAverage(marks) {
   return Math.floor(aver / marks.length);
 }
 ```
+*7 kyu Train to remove duplicates from an array with filter()*
+* https://www.codewars.com/kata/train-to-remove-duplicates-from-an-array-with-filter/train/javascript
+```javascript
+function unique(arr) {
+  let c = arr.filter(function(a, b) {
+    return arr.indexOf(a) === b;
+  });
+  return c;
+}
+```
