@@ -1622,3 +1622,10 @@ function unique(arr) {
   return c;
 }
 ```
+*7 kyu Ones and Zeros*
+* https://www.codewars.com/kata/ones-and-zeros/train/javascript
+```javascript
+const binaryArrayToNumber = arr => {
+  return parseInt(arr.join(''), 2);
+};
+```
