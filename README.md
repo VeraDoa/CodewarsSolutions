@@ -1640,3 +1640,12 @@ function isValid(formula) {
   return firstRule && secondRule && thirdRule && fourthRule;
 }
 ```
+*8 kyu Simple Fun #261: Whose Move*
+* https://www.codewars.com/kata/simple-fun-number-261-whose-move/train/javascript
+```javascript
+function whoseMove(lastPlayer, win) {
+  if(lastPlayer === "black" && win === false) return "white"
+  if(lastPlayer === "white" && win === true) return "white"
+  return "black"
+}
+```
