@@ -1649,3 +1649,13 @@ function whoseMove(lastPlayer, win) {
   return "black"
 }
 ```
+*7 kyu Check three and two*
+* https://www.codewars.com/kata/check-three-and-two/train/javascript
+```javascript
+function checkThreeAndTwo(array) {
+  let a = array.filter(x => x === 'a').length;
+  let b = array.filter(x => x === 'b').length;
+  let c = array.filter(x => x === 'c').length;
+  return (a === 3 || b === 3 || c === 3) && (a === 2 || b === 2 || c === 2);
+}
+```
