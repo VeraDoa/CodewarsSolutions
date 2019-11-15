@@ -1659,3 +1659,14 @@ function checkThreeAndTwo(array) {
   return (a === 3 || b === 3 || c === 3) && (a === 2 || b === 2 || c === 2);
 }
 ```
+*7 kyu Split In Parts*
+* https://www.codewars.com/kata/split-in-parts/train/javascript
+```javascript
+let splitInParts = function(s, partLength) {
+  let arr = [];
+  for (let i = 0; i < s.length; i += partLength) {
+    arr.push(s.substring(i, i + partLength));
+  }
+  return arr.join(' ')
+}
+```
