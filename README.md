@@ -1670,3 +1670,16 @@ let splitInParts = function(s, partLength) {
   return arr.join(' ')
 }
 ```
+*7 kyu Return the closest number multiple of 10*
+* https://www.codewars.com/kata/return-the-closest-number-multiple-of-10/train/javascript
+```javascript
+const closestMultiple10 = num => {
+  let a = Math.floor(num / 10) * 10;
+  let b = a + 10;
+  if (num - a < b - num) {
+    return a;
+  } else {
+    return b;
+  }
+}
+```
