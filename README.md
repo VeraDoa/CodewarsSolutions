@@ -1683,3 +1683,11 @@ const closestMultiple10 = num => {
   }
 }
 ```
+*8 kyu Price of Mangoes*
+* https://www.codewars.com/kata/price-of-mangoes/train/javascript
+```javascript
+function mango(quantity, price) {
+  let a = Math.floor(quantity / 3);
+  return (quantity - a) * price;
+}
+```
