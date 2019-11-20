@@ -1704,3 +1704,10 @@ function stairsIn20(s){
   return sum * 20;
 }
 ```
+*8 kyu Convert a String to a Number!*
+* https://www.codewars.com/kata/convert-a-string-to-a-number/train/javascript
+```javascript
+let stringToNumber = function(str) {
+   return +str;
+}
+```
