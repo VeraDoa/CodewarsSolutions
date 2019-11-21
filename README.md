@@ -1711,3 +1711,11 @@ let stringToNumber = function(str) {
    return +str;
 }
 ```
+*8 kyu Filter out the geese*
+* https://www.codewars.com/kata/filter-out-the-geese/train/javascript
+```javascript
+function gooseFilter (birds) {
+  let geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+  return birds.filter( bird => !geese.includes(bird));
+}
+```
